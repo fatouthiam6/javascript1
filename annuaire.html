@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="annuaire.css">
+    <script src="annuaire.js"></script>
+    <title>Annuaire</title>
+</head>
+<body>
+    <h2><b>Annuaire</b></h2>
+   
+    <button type="submit" onclick="afficherFormulaire()">Ajouter</button>
+
+   <div id="annuaire" class="annuaire">
+        
+   
+    
+        <form name="ajoutEtudiantForm">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" required>
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" required>
+
+            <label for="telephone">Téléphone:</label>
+            <input type="tel" name="telephone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="niveau">Niveau:</label>
+            <input type="text" name="niveau" required>
+
+            
+            <button type="submit" onclick="ajouterEtudiant()">Ajouter</button>
+            <button type="button" onclick="fermerFormulaire()">Annuler</button>
+        </form>
+    </div>
+
+    <table id="etudiantsTable">
+    </table>
+</body>
+</html>
+
+    <table id="etudiantsTable">
+        
+    </table>
+</body>
+</html>
